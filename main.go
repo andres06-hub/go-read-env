@@ -44,6 +44,7 @@ func goDotEnvVariable(key string) string {
 }
 
 func main() {
+	var exam string
 	value1 := goDotEnvVariable("GREETINGS")
 	value2 := viperEnvVariable("URL_DB")
 
